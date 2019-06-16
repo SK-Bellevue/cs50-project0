@@ -1,0 +1,75 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+#navbar{
+    background-color: white;
+    @extend%message;
+    .row{
+        height:30px;
+    }
+}
+.row > div{
+    height: 50%;
+    width: 20%;
+    margin: 30px;
+    padding: 15px;
+    @extend%message;
+}
+#info{
+    border: 2px solid teal;
+    background-color: rgb(158, 157, 248);
+    .info{
+        margin: 2px;
+        padding: 5px;
+    }
+    th{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    tr{
+        font-size: 18px;
+    }
+}
+.toolbar{
+    height: 40%;
+    width: 10%;
+    background-color: yellow;
+    margin: 15px;
+    padding: 10px;
+    @extend%message;
+}
+
+.toc{
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+    h1{
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+    @extend%message;
+    ul li{
+        background-color: rgb(192, 107, 51);
+        color: rgb(255, 134, 35);
+        font-size: 24px;
+        font: Arial;
+    }
+}
+#sidebarInfoPage{
+    position: fixed;
+    width:13%;
+    a{
+        text-align: center;
+    }
+}
+.imageBox > .container{
+    background-color: aqua;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trees</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: antiquewhite;
+            }
+            h1{
+                color: blue;
+            }
+            @media (min-width: 650px) {
+                h1::before {
+                    content: "About Trees";
+                }
+                h2::before {
+                    content: "Table of Contents";
+                }
+            }
+
+            @media (max-width: 649px) {
+                h1::before {
+                    content: "Trees";
+                }
+                h2::before {
+                    content: "Menu";
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1></h1>
+        <div class = "toc">
+            <h2></h2>
+            <ul>
+                <li><a href="firstPage.html">Basic Info</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="moreInfo.html">More Info</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
